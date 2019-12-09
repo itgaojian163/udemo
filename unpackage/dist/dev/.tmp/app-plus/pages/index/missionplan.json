@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "任务计划",
+  "usingComponents": {
+    "q-s-tabs": "/components/QS-tabs/QS-tabs"
+  }
+}

@@ -1,0 +1,99 @@
+
+.header-box {
+	position: fixed;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 100%;
+	background: #FFFFFF;
+	z-index: 999;
+}
+.header-tabs {
+	width: 100%;
+	white-space: nowrap;
+	position: relative;
+}
+.divider {
+	background: #CCCCCC;
+	width: 100%;
+	white-space: nowrap;
+	height: 1rpx;
+}
+.item-org-name {
+	font-size: 25rpx;
+	width: 70%;
+}
+.tab-items {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	width: 100%;
+	text-align: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 80rpx;
+	font-size: 50rpx;
+	font-weight: bold;
+	padding: 15rpx;
+	margin-right: 20rpx;
+}
+.container-box {
+	margin-bottom: 85rpx;
+	margin-top: 120rpx;
+}
+.btn-box {
+	width: 100%;
+	position: fixed;
+	bottom: 0rpx;
+}
+.item-box {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.item-content {
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 20rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.btn {
+	width: 100%;
+	line-height: 80rpx;
+	margin-bottom: 5rpx;
+	color: #FFFFFF;
+	background: #FF0000;
+}
+

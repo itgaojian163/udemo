@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/newPage",
+    "pages/index/register",
+    "pages/index/missionplan",
+    "pages/index/missionreport"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "logindemo",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "lis-tree": "/components/lis-tree/lis-tree"
+  }
+}
