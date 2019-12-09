@@ -1,0 +1,39 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/index/newPage",
+			"style": {
+				"navigationBarTitleText": "树"
+			}
+		},
+		{
+			"path": "pages/index/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/index/missionplan",
+			"style": {
+				"navigationBarTitleText": "任务计划"
+			}
+		}, {
+			"path": "pages/index/missionreport",
+			"style": {
+				"navigationBarTitleText": "任务上报"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"lis-tree": "/components/lis-tree/lis-tree"
+		}
+	}
+}
